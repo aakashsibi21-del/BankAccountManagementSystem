@@ -12,6 +12,7 @@ sim.method1()
 # bank.Deposite(500)
 
 current = CurrentAccount(0)
+
 current.dummey()
 current.Deposite(5000)
 # cannot be done this process because this varible is protected.
@@ -38,3 +39,4 @@ saving.display_balance()
 saving.Withdrawal(300)
 saving.display_balance()
 saving.calculate_interest(5)
+print('aaaaaaaa')
